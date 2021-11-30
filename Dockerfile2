@@ -6,6 +6,7 @@ RUN pip install flask --no-cache-dir
 
 EXPOSE 5000
 
+
 COPY . /app
 
 WORKDIR /app
